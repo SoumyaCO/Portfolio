@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#chatclarity" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -89,8 +94,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../index.html" title="Soumyadip Bhattacharjya" class="md-header__button md-logo" aria-label="Soumyadip Bhattacharjya" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="../assets/my_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -339,8 +343,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../index.html" title="Soumyadip Bhattacharjya" class="md-nav__button md-logo" aria-label="Soumyadip Bhattacharjya" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="../assets/my_logo.png" alt="logo">
 
     </a>
     Soumyadip Bhattacharjya
@@ -558,6 +561,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    MLOps
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="mlops.html" class="md-nav__link md-nav__link--active">
         
   
@@ -567,6 +581,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chatclarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      ChatClarity
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -903,6 +943,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chatclarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      ChatClarity
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -921,7 +978,23 @@
 
   <h1>MLOps</h1>
 
+<h3 id="chatclarity"><b><span style='color:#fc8403; text-align:center'>ChatClarity</span></b><a class="headerlink" href="#chatclarity" title="Permanent link">&para;</a></h3>
+<h4><i><span style='color:gray'>Whatsapp Chat Analyzer and Context Based Searching</span></i></h4>
 
+<p><a href="https://www.github.com/SoumyaCO/chatClarity"><img alt="GitHub" src="https://img.shields.io/badge/Github-Repository-97c446?logo=Github&amp;logoColor=DAF7A6" /></a>
+<a href=""><img alt="Open Notebook" src="https://img.shields.io/badge/binder-View-006eca?logo=Jupyter&amp;logoColor=#fc8803" /></a></p>
+<p>Here we have created a <strong>web application</strong> to analyze Whatsapp group chats. The Web application can generate the following statistics from exported group chat <code>(*.txt file)</code></p>
+<blockquote>
+<ol>
+<li>The most used words (in past <em>n</em> number of days).</li>
+<li>Most Active members (in past <em>n</em> number of days).</li>
+<li>Anomalies in message counts.</li>
+<li>Username Based searching.</li>
+<li>Context Based searching.</li>
+</ol>
+</blockquote>
+<p>It is fully capable of handaling lots of text messages in a very less amount of time. Because we've used traditional ML methods to optimize the text file input into a tabular format using <strong>RegEx</strong> and <strong>Pandas</strong>. After we've used <strong>Spacy</strong> for <strong>Named Entity Recognition</strong> and <strong>stopping words deletion</strong>. Then using <strong>Flask</strong> we've taken query from <em>frontend</em> (Made with <strong>React</strong> by <a href="https://github.com/BlackHeart786">@ToukirAhmedKhan</a>) and by using <strong>KNN</strong> we've served the context based searched results.</p>
+<p><img alt="" src="https://github.com/SoumyaCO/chatClarity/raw/main/diagrams/home_page_cc.png" width="340" /><img alt="" src="https://github.com/SoumyaCO/chatClarity/raw/main/diagrams/file_uploader_cc.png" width="340" /></p>
 
 
 
@@ -1019,7 +1092,7 @@
     
     
     
-    <a href="in/soumyadip-bhattacharjya-993974234" target="_blank" rel="noopener" title="Soumyadip Bhattacharjya" class="md-social__link">
+    <a href="https://www.linkedin.com/in/soumyadip-bhattacharjya-993974234/" target="_blank" rel="noopener" title="Soumyadip Bhattacharjya" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
     </a>
   
