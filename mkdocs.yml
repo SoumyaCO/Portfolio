@@ -3,7 +3,7 @@ edit_uri: tree/main/docs/src/markdown
 docs_dir: docs/markdown
 
 
-# Extensions _________________________
+# Extensions ________________________
 markdown_extensions:
   - abbr
   - admonition
