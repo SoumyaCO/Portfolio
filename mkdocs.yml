@@ -1,5 +1,8 @@
 site_name: Soumyadip Bhattacharjya
-edit_uri: tree/main/docs/src/markdown
+site_url: https://soumyaco.github.io/Portfolio/
+repo_name: 'SoumyaCO/Portfolio'
+repo_url: https://github.com/SoumyaCO/Portfolio
+site_description: Portfolio Website to `Showcase` and `Share knowledge`
 docs_dir: docs/markdown
 
 
@@ -122,8 +125,8 @@ extra:
 plugins:
     - blog:
         blog_toc: true
-        blog_excerpt: optional
-        post_excerpt_sepertor: <!-- more -->
+        # blog_excerpt: optional
+        # post_excerpt_sepertor: <!-- more -->
         archive_name: Archive
         post_slugify: !!python/object/apply:pymdownx.slugs.slugify
             kwds:
@@ -155,6 +158,7 @@ nav:
 # My Personal Course on Deep Learning with Notebooks and Videos and Animations
 - DL Simplified:
     - Home: dl/index.md
+    - PyTorch: dl/pytorch01.md
     - Resources: dl/resources.md
     - Community: dl/community.md
     - Contribute: dl/contribute.md
