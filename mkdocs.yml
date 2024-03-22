@@ -1,1 +1,163 @@
-site_name: My Docs
+site_name: Soumyadip Bhattacharjya
+edit_uri: tree/main/docs/src/markdown
+docs_dir: docs/markdown
+
+
+# Extensions _________________________
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# ===================================
+
+theme:
+  name: material
+  features:
+    # Navigation
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    # Content
+    - content.tabs.link
+    - content.tooltips
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  # paletts
+  palette:
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+  # Fonts
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+
+  # Extra
+extra:
+  # Social media _________
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SoumyaCO
+      name: SoumyaCO
+    - icon: fontawesome/brands/linkedin
+      link: in/soumyadip-bhattacharjya-993974234
+      name: Soumyadip Bhattacharjya
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/soumyadipbhat
+      name: soumyadipbhat
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/SoumyadipBhat19
+      name: SoumyadipBhat19
+    - icon: fontawesome/brands/hashnode
+      link: https://soumyadip.hashnode.dev/
+      name: soumyadip
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@soumyadipbhat2002
+      name: soumyadipbhat2002
+  # Social media ___________
+
+# Plugins ________
+plugins:
+    - blog:
+        blog_toc: true
+        blog_excerpt: optional
+        post_excerpt_sepertor: <!-- more -->
+        archive_name: Archive
+        post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+            kwds:
+                case: lower
+    - search
+    - tags
+    - offline
+  
+copyright: | 
+  Copyright &copy; 2024 <a href="https://github.com/SoumyaCO" target="_blank" rel="noopener">Soumyadip Bhattacharjya</a>
+
+
+# Navigation
+nav:
+- Home: index.md
+
+- Projects:
+
+    - General: portfolio/general.md
+    - Data Analytics: portfolio/da.md
+    - Computer Vision: portfolio/cv.md
+    - NLP: portfolio/nlp.md
+    - Time Series: portfolio/ts.md
+    - MLOps: portfolio/mlops.md
+
+- Articles:
+    - blog/index.md
+
+# My Personal Course on Deep Learning with Notebooks and Videos and Animations
+- DL Simplified:
+    - Home: dl/index.md
+    - Resources: dl/resources.md
+    - Community: dl/community.md
+    - Contribute: dl/contribute.md
+
+- About me:
+    - about/index.md
