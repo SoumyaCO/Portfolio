@@ -152,6 +152,7 @@ nav:
     - NLP: portfolio/nlp.md
     - Time Series: portfolio/ts.md
     - MLOps: portfolio/mlops.md
+    - Paper Implementations: portfolio/papers.md 
 
 - Articles:
     - blog/index.md
