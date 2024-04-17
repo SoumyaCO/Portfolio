@@ -12,7 +12,7 @@
 #### [:fontawesome-brands-telegram: _Message Me](https://t.me/Soumyadipbhatt){ .md-button} [:fontawesome-solid-file: _My Résumé](images/SoumyadipBhattacharjya.pdf){ .md-button .md-button--primary}
 </center>
 
-I've been Coding <b>Python for 3+ years</b> and I jumped into <b>ML and DL 2 years ago</b>, since then I love this field and try to learn as much as I can. I am most interested in Full Stack Machine Learing Projects with industry standard tools to Make ML powered apps which is cpable of serving <b>Millions of users</b><h4>
+I've been Coding <b>Python for 3+ years</b> and I jumped into <b>ML and DL 2 years ago</b>, since then I love this field and try to learn as much as I can. I am most interested in Full Stack Machine Learing Projects with industry standard tools to Make ML powered apps which is capable of serving <b>Millions of users</b><h4>
 
 ## :fontawesome-solid-scroll: **Background**
 
@@ -90,8 +90,8 @@ I've been Coding <b>Python for 3+ years</b> and I jumped into <b>ML and DL 2 yea
 
 ## :fontawesome-solid-road: **Journey**
 
-I started coding during my **Physics practical lessons** (we had to use python and scipy for Calculas and Linear Algebra).
-Then I explored on my own and liked it. Since then I spend most of time learning and applying them into **projects**. As most of the people in tech naturally starts to code from very beginning og their education I always felt left behind (though this is not a competition), so I have spent minimum 6 hours a day for coding and watching other peoples code on **github**, **kaggle** or **blog posts**. Till now I do the same everyday. Recently I started a Project - **[Deep Learning Simplified](../dl/index.md)**, I want to make a beginners one stop place for leanring **from Machine Learning Basics to Launching ML Apps into production**.
+I started coding during my **Physics practical lessons** (we had to use python and scipy for Calculus and Linear Algebra)
+Then I explored on my own and liked it. Since then I spend most of time learning and applying them into **projects**. As most of the people in tech naturally starts to code from very beginning of their education, I have always felt left behind (though this is not a competition), so I have spent minimum 6 hours a day for coding and watching other people's code on **github**, **kaggle** or **blog posts**. Till now I do the same everyday. Recently I started a Project - **[Deep Learning Simplified](../dl/index.md)**, I want to make a beginners' one stop place for leanring **from Machine Learning Basics to Launching ML Apps into production**.
 
 ## :fontawesome-solid-list: **Keypoints**
 
@@ -101,4 +101,4 @@ Some of the keypoints about me
 > 2. I like to automate stuff.
 > 3. I work hard not for some goals, I like it
 > 4. I like to struggle building a logic
-> 5. Although I have a hurry in getting a job mostly I get facinated and try to learn other stuffs which are of no need (like \*programming in **Elixer\***)
+> 5. Although I have a hurry in getting a job mostly I get fascinated and try to learn other stuffs which are of no need (like \*programming in **Elixer\***)
